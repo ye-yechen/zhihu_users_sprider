@@ -15,5 +15,12 @@
 - ajax 请求 following 和 follower 后返回的是 json 格式的数据，里面包含了下一页数据的 url 和是否为最后一页的判断，解析即可
 - 每个用户都有一个唯一的 `url_token`，因此放入 redis 即可实现去重
 
+## 一些截图
+
+![1](https://github.com/creatorYC/zhihu_users_sprider/blob/master/c8.PNG)
+![2](https://github.com/creatorYC/zhihu_users_sprider/blob/master/c9.PNG)
+![3](https://github.com/creatorYC/zhihu_users_sprider/blob/master/c10.PNG)
+![4](https://github.com/creatorYC/zhihu_users_sprider/blob/master/c11.PNG)
+
 ### 注意
 如果需要对最终的数据进行分析而又不需要完整的用户信息，可以注释掉获取 follower 的函数，因为这里面获取的用户很多都是三无用户
