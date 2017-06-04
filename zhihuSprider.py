@@ -41,27 +41,7 @@ class ZhihuSprider(threading.Thread):
         self.threadLock = threading.Lock()
 
         self.cookies = {
-            'q_c1': '10847a101d1a4f16bdecd301744f5c6b|1492967770000|1492967770000',
-            'd_c0': "AJBC3L4HpwuPTvVaupqhJuIj8Y4UXGIzusI=|1492967771",
-            '_zap': '8b7dba7c-ac91-4194-9587-573d21bed65e',
-            'r_cap_id': "MGYzMDU5OWUwMTk3NDI4YmEzN2IwZmM0NjY3ODA5ZTc=|1493002137|a738c458c3393f59e588947917192b51083325e8",
-            'cap_id': "ZGNkNGRlYjQ4NDUzNDBjNzgyNDEyYTVlNmE1ZGM4NjY=|1493002137|271405458d117c54a93629db161e614c247b7d27",
-            '_xsrf': '66243fb75ed8dcf7523baf96155c3412',
-            'aliyungf_tc': 'AQAAAM4JXF38ggwAPCKct/LkbEkDzdl1',
-            'acw_tc': 'AQAAABKorj+7wQ0APCKct8nYviiO2FWq',
-            's-q': '06wj',
-            's-i': '1',
-            'l_n_c': '1',
-            'capsion_ticket': '9365576165e744868b4bf2fccc5dc2de',
-            'sid': '46db1ghg',
-            's-t': 'autocomplete',
-            '__utma': '51854390.1479534956.1492967771.1492967771.1493002100.2',
-            '__utmb': '51854390.0.10.1493002100',
-            '__utmc': '51854390',
-            '__utmz': '51854390.1493002100.2.2.utmcsr=zhihu.com|utmccn=(referral)|utmcmd=referral|utmcct=/account/unhuman',
-            '__utmv': '51854390.100-1|2=registration_date=20150822=1^3=entry_date=20150822=1',
-            'z_c0': 'Mi4wQUJDTVBoUG1sQWdBa0VMY3ZnZW5DeGNBQUFCaEFsVk5HUFVrV1FBQWo5R29mdk94VjgzaWRHeVN4c0xTQUlkZWRB|1493002266|0813e9c38c771415484c50603a5dd56492551b98'
-        }
+           }
 
         self.headers = ZhihuSprider.headers
         self.base_url = "https://www.zhihu.com"
